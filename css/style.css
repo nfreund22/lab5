@@ -16,10 +16,19 @@ img {
 }
 
 table {
- width: 100%;
+  width: 100%;
   border-collapse: collapse;
 }
 
+table, th, td {
+  border: 1px solid black; 
+}
+
 th {
- height: 60px; 
+  height: 60px; 
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
 }
